@@ -24,7 +24,7 @@ export function ProductCard({ name, description, price, image }: ProductCardProp
       viewport={{ once: true }}
       transition={{ duration: 0.4 }}
       whileHover={{ y: -8 }}
-      className="bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-800 flex flex-col h-full shadow-lg hover:shadow-yellow-400/10 hover:border-yellow-400/30 transition-colors"
+      className="bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-800 flex flex-col h-full shadow-lg hover:shadow-yellow-400/10 hover:border-yellow-400/30 transition-colors w-full"
     >
       <div className="relative h-48 sm:h-56 overflow-hidden bg-zinc-800 group/image">
         <div className="w-full h-full transition-transform duration-300 group-hover/image:scale-105">

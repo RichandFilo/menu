@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { MessageCircle, ArrowDown } from "lucide-react";
 import { WHASTAPP_NUMBER } from "../data";
-import heroBg from "figma:asset/38d234c3db4fdc5a7fb9d743936cd89368642aa9.png";
+import heroBg from "/src/img/banner1.jpg";
 
 export function Hero() {
   const handleOrder = () => {
